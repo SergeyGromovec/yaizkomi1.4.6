@@ -1,0 +1,233 @@
+
+*, *::before ,::after {
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(233.75deg, #E7C1FE 11.13%, #9C55A8 97.6%);
+    width: 1440px;
+    height: 1024px;
+    margin: 0;
+    padding-top: 30px;
+    font-family: 'Montserrat', sans-serif;
+    color: #FFFFFF;
+   
+}
+
+
+
+.container {
+    max-width: 1175px;
+    max-height: 737px;
+}
+
+
+.swiper-container {
+    width: 90%;
+    padding: 0 15px;
+    position: relative;
+    margin: 0 auto;
+    
+}
+
+.card {
+    padding: 30px;
+    background-color: #53c780;
+    max-height: 550px;
+    color: black;
+    font-size: 18px;
+}
+
+.swiper-pagination-bullet {
+    width: 50px;
+    height: 50px;
+    opacity: 1;
+   bottom: 0 63px;
+    background-color: #fff;
+}
+.project-pagination {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.project-bullet {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 45px;
+    margin-left: 45px;
+}
+
+.project-bullet {
+    background-color: white;
+}
+.project-bullet-active {
+    background-color: black;
+}
+
+.swiper-pagination-bullet-active {
+    background-color: black;
+}
+
+.swiper-two {
+    background-color: pink;
+    width: 1266px;
+   height: 676px; 
+
+}
+
+.swiper-three {
+    background-color: orange;
+    
+}
+
+
+
+.logo {
+    margin: auto;
+}
+
+.hero-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container {
+    max-width: 1175px;
+    margin: auto;
+    border: 1px solid yellow;
+}
+/* вопрос, к какому правильнее приминять  */
+.hero-avatar {
+    border: 1px solid orangered;
+    width: 614px;
+    height: 614px;
+}
+
+.header {
+    border: 1px solid black;
+    max-width: 1175px;
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    margin-bottom: 75px;
+}
+    
+.list {
+    border: 1px solid red;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.item-link {
+    color: #FFFFFF;
+    text-decoration: none;
+    margin: auto 58px;
+    text-align: center;
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: bold;
+}
+
+.item {
+    display: flex;
+    align-content: center;
+}
+
+.main-nav {    
+    display: flex;
+    align-content: center;
+}
+
+.hero-title {
+display: inline-block;   
+font-weight: bold;
+font-size: 48px;
+line-height: 59px;
+margin-bottom: 22px;
+margin-top: 0px;
+max-width: 550px;
+}
+
+.hero-description {
+font-weight: bold;
+font-size: 36px;
+line-height: 44px;
+margin-bottom: 61px;
+}
+
+.button {
+color: white;
+position: absolute;
+width: 452px;
+height: 129.96px;
+border-radius: 100px;
+font-weight: bold;
+font-size: 30px;
+line-height: 38px;
+background-color: black;
+border: none;
+cursor: pointer;
+transition-duration: 500ms;
+}
+
+.button.dwa {
+    background-color: black;
+    margin-left: 360px;
+}
+
+
+.button:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+    background-color: white;
+    color: #000;
+}
+
+
+.text-description {
+    text-transform: uppercase;
+}
+
+.hero-subtitle {
+   margin-top: 250px;
+}
+
+/* кнопка на второй странице  */
+
+
+.two-main-img {
+    width: 900px;
+    height: 450px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 35px;
+}
+
+
+.bar-left {
+    display: inline-block;
+    border: 1px solid red;
+    max-width: 535px;
+    max-height: 737px;
+   
+}
+
+.bar-right {
+    border: 1px solid blue;
+    display: inline-block;
+}
+
+.volk-pic {
+    width: 535px;
+    height: 302px;
+}
+
